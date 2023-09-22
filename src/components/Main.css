@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+.main h1 {
+    text-align: center;
+}

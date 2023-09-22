@@ -1,0 +1,48 @@
+.banner {
+    display: flex;
+    height: 20rem;
+}
+
+.bannerLeft {
+    display: flex;
+    justify-content: center;
+    background-color: #ce0033;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 55%;
+}
+
+.content h1 {
+font-weight: bolder;
+font-size: 2rem;
+}
+
+.content-button {
+    margin-top: 20px;
+}
+
+.traineeButton {
+    text-transform: uppercase;
+    color: #ce0033;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+    padding: 5px;
+    box-shadow: #0000003d 0px 5px 3px;
+}
+
+.bannerRight {
+    width: 40%;
+}
+
+.bannerImg {
+    object-fit: cover;
+    height: 100%;
+}

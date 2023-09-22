@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+p {
+    font-family: Nunito Sans,sans-serif
+}

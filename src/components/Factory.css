@@ -1,0 +1,45 @@
+.infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    background-color: rgba(211, 211, 211, 0.404);
+}
+.infos h2 {
+    padding-left: 5%;
+}
+.infos .infos_factory {
+    width: 85%;
+    height: 70%;
+    background-color: white;
+}
+.localisation {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.localisation p {
+    margin: 0;
+    width: fit-content;
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(104, 103, 103);
+}
+
+.localisationIcon {
+    color: #ce0033;
+    width: fit-content;
+    padding-right: 2%;
+}
+
+.informations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    font-weight: bold;
+    text-transform: uppercase;
+}

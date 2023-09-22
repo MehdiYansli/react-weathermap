@@ -1,0 +1,76 @@
+
+
+.header {
+    margin: auto;
+    width: 70%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: smaller;
+    color: grey;
+}
+
+.info .infoIcon {
+    width: 15%;
+}
+
+
+.socialTopBar, .info, .socialMedia, .navbar, .menu {
+    display: flex;
+}
+
+.socialTopBar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialMedia, .menu {
+    justify-content: end;
+    align-items: center;
+}
+
+.socialMedia {
+    width: 10%;
+    color: #ce0033;
+}
+hr {
+    margin-top: 0;
+    color: lightgray;
+}
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    width: 20%;
+}
+
+.menu {
+    width: 50%;
+    justify-content: end;
+    font-size: small;
+    font-weight: bold;
+}
+
+.menu .dropDown {
+    display: flex;
+    justify-content: end;
+    text-transform: uppercase;
+}
+
+.menu .dropDownIcon {
+    width: 15%;
+}
+
+.menu .navSection {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-transform: uppercase;
+
+}
